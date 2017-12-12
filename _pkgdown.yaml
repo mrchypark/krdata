@@ -4,9 +4,3 @@ template:
   params:
     bootswatch: yeti
     ganalytics: UA-47822682-14
-reference:
-  - title: All functions
-    desc: All functions in krdata
-    contents:
-      - '`get_list`'
-      - '`get_data`'
