@@ -1,6 +1,6 @@
 Package: krdata
 Type: Package
-Title: Data Loader sourced from Korea.
+Title: Data Loader sourced from Korea
 Date: 2017-12-09
 Version: 0.1.0
 Authors@R: c(
@@ -13,8 +13,14 @@ LazyData: true
 Depends:
     R (>= 2.10)
 Imports:
-    tibble
+    tibble,
+    devtools,
+    urltools,
+    stringr,
+    readr,
+    gsheet
 Suggests:
     dplyr
 URL: http://github.com/mrchypark/krdata
 BugReports: https://github.com/mrchypark/krdata/issues
+RoxygenNote: 6.0.1

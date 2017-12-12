@@ -4,10 +4,10 @@
 #'
 #' @return Get tibble ?x5. 
 #' @export
-#' @importFrom gsheet gsheet2tbl
+#' @import gsheet
 
 get_list <- function(){
   tar <- "https://docs.google.com/spreadsheets/d/1onQ3ZL_a7EiA52lI3GlRo9CS_8TFX2dRZaO9of-NFsM/edit?usp=sharing"
-  res <- gsheet2tbl(tar)
+  res <- gsheet::gsheet2tbl(tar)
   return(res)
 }
